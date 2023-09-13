@@ -1,0 +1,92 @@
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam', cursive;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    height: 20vh;
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.new_book, .show_book{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    border-radius: 5px;
+}
+h1{
+    margin: 0;
+}
+main{
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: auto;
+}
+.form{
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    background-color: bisque;
+    width: auto;
+    height: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+label{
+    font-size: large;
+}
+input{
+    font-size: large;
+    border-radius: 5px;
+}
+.submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+footer{
+    height: 10vh;
+    background-color: antiquewhite;
+}
+
+p{
+    font-size: larger;
+}
+.card div{
+    height: 400px;
+    width: 200px;
+    background-color: aquamarine;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
